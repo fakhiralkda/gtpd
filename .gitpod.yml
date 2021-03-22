@@ -1,0 +1,8 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - command: >
+      bash install.sh
+      clear
+      echo "Ready!"
